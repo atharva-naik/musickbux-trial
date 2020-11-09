@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1586075010923-2dd4570fb338?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+
+#header {
+    /* background-image: url("https://www.myfreetextures.com/wp-content/uploads/2011/06/another-rough-old-and-worn-parchment-paper-900x741.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    color: maroon;
+    word-spacing: 12px;
+    font-family: 'Special Elite';
+}
+
+/* #header:hover {
+    text-underline-position: ;
+} */
+
+#container{
+    width: 1400px;
+    margin-left: auto; 
+    margin-right: auto;  
+}
+
+#content{
+
+}
+
+.index {
+    /* font-family: 'Special Elite'; */
+    font-size: 33px;
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+}
+
+.chapters {
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Special Elite';
+    color: maroon;
+}
+
+.chapter {
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 40px;
+}
+
+li{
+    list-style-type: none;
+}
+
+#nav{
+    background-image: url('https://naldzgraphics.net/wp-content/uploads/2012/08/16-Yellow.jpg');
+    background-size: contain;
+    width: 280px;
+    float: left;
+}
+
+#nav .selected{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Special Elite';
+    color: forestgreen;
+    font-weight: bold;    
+}
+
+#nav .chapters:hover{
+    color: forestgreen;
+    font-weight: bold;    
+    cursor: pointer;
+}
+
+#main{
+    width: 1100px;   
+    float: right;
+    /* display: flex; */
+}
+
+#embedded_audio_1:hover{
+    color: brown;
+    cursor: url("../assets/music-15-260775/music-15-24-260775.png"), default;
+}
+#embedded_audio_2:hover{
+    color: brown;
+    cursor: url("../assets/music-15-260775/music-15-24-260775.png"), default;
+}
+
+.story{
+    font-family: 'Special Elite';
+    word-spacing: 9px;
+    text-align: left;
+}
+
+#page_number{
+    width: 600px;
+    font-family: 'Special Elite';
+    float: left;
+    color: maroon;
+    text-align: right;
+}
+
+#author{
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 22px;
+    float: right;
+}   
+
+#footer{
+    clear: both;
+    text-align: end;
+    bottom: 0;
+}
