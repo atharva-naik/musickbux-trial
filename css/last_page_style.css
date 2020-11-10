@@ -61,6 +61,29 @@ li{
     float: left;
 }
 
+#nav_small{
+    opacity: 0;
+}
+
+#sidebar{
+    width: 250px;
+    float: left;
+}
+
+.toggle_nav{
+    /* opacity: 0.5; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.toggle_nav:hover{
+    color: red;
+}
+
 #nav .selected{
     text-align: center;
     text-decoration: none;
@@ -109,6 +132,31 @@ li{
     font-size: 22px;
     float: right;
 }   
+
+#prev_page{
+    clear: both;
+    float: left;
+    font-family: 'Special Elite';
+    text-align: right;
+    color: brown;
+    cursor: pointer;
+}
+
+#prev_page:hover{
+    text-decoration: underline;
+}
+
+#next_page{
+    float: right;
+    font-family: 'Special Elite';
+    text-align: right;
+    color: brown;
+    cursor: not-allowed;
+}
+
+#next_page:hover{
+    text-decoration: none;
+}
 
 #footer{
     clear: both;

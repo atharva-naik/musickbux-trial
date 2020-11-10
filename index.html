@@ -3,33 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <title>Demo Buk</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/first_page_style.css" type="text/css">
         <link rel="shortcut icon" href="assets/icons/image.png" type="image/x-icon" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
     </head>
     <body>
         <div id="container">
            <div id="header">
-                <h1 style="text-align: center;">This BUK<sup>TM</sup> is a proof-of-concept </h1>
+                <h1 style="text-align: center;" title="show Index">This BUK<sup>TM</sup> is a proof-of-concept </h1>
            </div>
            <div id="content">
-                <div id="nav">
-                    <h3 class="index">Index</h3>
-                    <ul>
-                        <li><a class="selected" href="#"> Chapter 1: How we met</a></li>
-                        <li><a class="chapters" href="#"> Chapter 2: Getting to know each other</a></li>
-                        <li><a class="chapters" href="#"> Chapter 3: First date</a></li>
-                        <li><a class="chapters" href="#"> Chapter 4: This is a chapter</a></li>
-                        <li><a class="chapters" href="#"> Chapter 5: I don't know what to write</a></li>
-                        <li><a class="chapters" href="#"> Chapter 6: Another chapter</a></li>
-                        <li><a class="chapters" href="#"> Chapter 7: Christmas is coming</a></li>
-                        <li><a class="chapters" href="#"> Chapter 8: My life sucks</a></li>
-                        <li><a class="chapters" href="#"> Chapter 9: This is is a good buk</a></li>
-                        <li><a class="chapters" href="#"> Chapter 10: I like music a lot</a></li>
-                        <li><a class="chapters" href="#"> Chapter 11: Indices suck</a></li>
-                        <li><a class="chapters" href="#"> Chapter 12: You liek musik?</a></li>
-                    </ul>    
+                <div id="nav" class="sidebar">
+                    <div id="sidebar">
+                        <h3 class="index">Index</h3>
+                        <ul>
+                            <li><a class="selected" href="#"> Chapter 1: How we met</a></li>
+                            <li><a class="chapters" href="#"> Chapter 2: Getting to know each other</a></li>
+                            <li><a class="chapters" href="#"> Chapter 3: First date</a></li>
+                            <li><a class="chapters" href="#"> Chapter 4: This is a chapter</a></li>
+                            <li><a class="chapters" href="#"> Chapter 5: I don't know what to write</a></li>
+                            <li><a class="chapters" href="#"> Chapter 6: Another chapter</a></li>
+                            <li><a class="chapters" href="#"> Chapter 7: Christmas is coming</a></li>
+                            <li><a class="chapters" href="#"> Chapter 8: My life sucks</a></li>
+                            <li><a class="chapters" href="#"> Chapter 9: This is is a good buk</a></li>
+                            <li><a class="chapters" href="#"> Chapter 10: I like music a lot</a></li>
+                            <li><a class="chapters" href="#"> Chapter 11: Indices suck</a></li>
+                            <li><a class="chapters" href="#"> Chapter 12: You liek musik?</a></li>
+                        </ul>
+                    </div>
+                    <div id="collapse">
+                        <button class="toggle_nav"><i class="fa fa-minus-square" aria-hidden="true"></i></button>
+                    </div>
                 </div>
-                <div id="main">
+                <div id="main" class="main-content">
                     <h2 class="chapter">How we met</h2>
                     <div id="embedded_audio_1" title="frad - first date"> 
                         <p class="story">Not quite a first date, but first meeting before first date, which was messy but led to marriage in 8 months.</p>
@@ -55,13 +61,17 @@
                     </div>
                     <div id="page_number">Page 1, How we met</div>
                     <div id="author">David Nathaniel</div>
+                    <div id="prev_page"><i class="fa fa-backward" aria-hidden="true"></i> Previous Page</div>
+                    <div id="next_page">Next Page <i class="fa fa-forward" aria-hidden="true"></i></div>
                 </div>
             </div>
+
             <div id="footer">
                 Copyright &copy; 2020 Atharva Naik
             </div>
         </div>
         <script src="js/play_audio.js"></script>
+        <script src="js/index_bar.js"></script>
         <!-- <p class="text body style="text-align: center; font-size: 23px;">Did you like this idea, get in touch !</p>  -->
    </body>
 </html>
