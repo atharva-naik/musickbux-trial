@@ -1,77 +1,317 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Demo Buk</title>
-        <link rel="stylesheet" href="css/first_page_style.css" type="text/css">
-        <link rel="shortcut icon" href="assets/icons/image.png" type="image/x-icon" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
-    </head>
-    <body>
-        <div id="container">
-           <div id="header">
-                <h1 style="text-align: center;" title="show Index">Like every romance BUK<sup>TM</sup> ever, like literally guys, this frigging sucks dude, who writes these </h1>
-           </div>
-           <div id="content">
-                <div id="nav" class="sidebar">
-                    <div id="sidebar">
-                        <h3 class="index">Index</h3>
-                        <ul>
-                            <li><a class="selected" href="#"> Chapter 1: How we met</a></li>
-                            <li><a class="chapters" href="#"> Chapter 2: Getting to know each other</a></li>
-                            <li><a class="chapters" href="#"> Chapter 3: First date</a></li>
-                            <li><a class="chapters" href="#"> Chapter 4: This is a chapter</a></li>
-                            <li><a class="chapters" href="#"> Chapter 5: I don't know what to write</a></li>
-                            <li><a class="chapters" href="#"> Chapter 6: Another chapter</a></li>
-                            <li><a class="chapters" href="#"> Chapter 7: Christmas is coming</a></li>
-                            <li><a class="chapters" href="#"> Chapter 8: My life sucks</a></li>
-                            <li><a class="chapters" href="#"> Chapter 9: This is is a good buk</a></li>
-                            <li><a class="chapters" href="#"> Chapter 10: I like music a lot</a></li>
-                            <li><a class="chapters" href="#"> Chapter 11: Indices suck</a></li>
-                            <li><a class="chapters" href="#"> Chapter 12: You liek musik?</a></li>
-                        </ul>
-                    </div>
-                    <div id="collapse">
-                        <button class="toggle_nav"><i class="fa fa-minus-square" aria-hidden="true"></i></button>
-                    </div>
-                </div>
-                <div id="main" class="main-content">
-                    <h2 class="chapter">How we met</h2>
-                    <div id="embedded_audio_1" title="frad - first date"> 
-                        <p class="story">Not quite a first date, but first meeting before first date, which was messy but led to marriage in 8 months.</p>
-                        <p class="story">I was living in San Francisco and it was during the City’s Indian summer (August/September). She was a friend to a roommate. She was reclined, in shorts and bikini top, sunning herself. All were casually being social. Said roommate was massaging her foot. Everything about her intrigued me: blonde, blue eyes, attractive, not self-conscious, interesting conversation, intelligent… you get the picture. Intrigued enough to be willing to say or do something… anything, and not have a clue what to do or say. I approached, roommate still busy working the kinks out of her foot. I looked at her, then him, then her foot…</p>
-                        <p class="story">Me: (to her) “You have athlete’s foot”</p>
-                        <p class="story">Roommate: “Oh, gross. Yuck” and leaves her foot behind and moving away.</p>
-                        <p class="story">Her: (looking at me with an absolute WTF stare)</p>
-                        <audio id="src__audio_1" src="assets/music/frad - first date.mp3" loop="loop">
-                            Error: your web browser does not support this audio player.
-                        </audio>
-                    </div>
-                    <!-- /home/atharva/musickbux-trial/assets/music/Bubble Tea (feat. juu & cinders).mp3 -->
-                    <div id="embedded_audio_2" title="Bubble Tea (feat. juu & cinders)">
-                        <p class="story">Me: (Looks at roommate, looks at her feet, then him, then her) “Look. It’s not really that big of a deal. All you need to do is wash-up with soap-and-water when you’re done” (looked at him again noting no sign of returning and then at her feet)</p>
-                        <p class="story">Me: (lowers myself to my knees) “No big deal at all” (looking at feet, taking one, and begins massaging her foot, picking up where roommate left off)</p>
-                        <p class="story">Me: (maybe half a minute into massaging her foot, looking up, catching her eyes) “Hi, I’m David. You’re… ?”</p>
-                        <p class="story">She shared her name. At some point within two weeks, we did the first date. Again, clueless because I’d never run into anyone before that left me without words, made me feel all-thumbs, and clumsy and dumb. Naturally, being in that state and walking several miles to where we chose to do dinner, I forgot my wallet. Somehow, I gained composure around her and managed to start saying things that made sense. After several months, we got a place together. Several more months, we talked marriage. Neither of us were opposed to the idea so we went ahead and got our license. Beyond that, no clear ideas or plans. I’d probably just keep going along as we were for a long time.</p>
-                        <p class="story">A few months later, she nailed me with a dare. Worse still, a double-dare to get married in an hour’s time. It took about an hour-and-a-half, but thumbing through the yellow pages and making hurried calls, found a non-denomination priest(es) to meet us in the rose garden in Golden Gate Park as dusk approached, with 2 witnesses in tow. We kept the marriage alive for 20 years and we remain good friends, still scribbling letters back-and-forth, sending birthday/x-mas gifts back-and-forth, and occasionally visiting when vacation time allows. We were and remain, good friends.</p>
-                        <p class="story">Looking back, the whole thing was kind of quirky and dear and in it’s own way, seems kinda romantic. I mean, really, how many can make the claim their moment of marriage took place on a double-dare that ended up, strangely enough, in a metropolitan city’s official rose garden, not to mention said roses were in bloom? All of it because she had a fungal infection that I was stupid enough to point out…</p>
-                        <audio id="src__audio_2" src="assets/music/Bubble Tea (feat. juu & cinders).mp3" loop="loop">
-                            Error: your web browser does not support this audio player.
-                        </audio>
-                    </div>
-                    <div id="page_number">Page 1, How we met</div>
-                    <div id="author">David Nathaniel</div>
-                    <div id="prev_page"><i class="fa fa-backward" aria-hidden="true"></i> Previous Page</div>
-                    <div id="next_page">Next Page <i class="fa fa-forward" aria-hidden="true"></i></div>
-                </div>
-            </div>
+ 
+<html lang="en" class="no-js"> 
+<head>
+	<title>Demo Buk™</title>
+	<link rel="shortcut icon" href="assets/icons/image.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jScrollPane/2.2.1/style/jquery.jscrollpane.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bookblock.css" />		
+	<link rel="stylesheet" type="text/css" href="css/style.css" />		
+</head>
+	<body>
+		<div id="container" class="container">	
 
-            <div id="footer">
-                Copyright &copy; 2020 Atharva Naik
-            </div>
-        </div>
-        <script src="js/play_audio.js"></script>
-        <script src="js/index_bar.js"></script>
-        <!-- <p class="text body style="text-align: center; font-size: 23px;">Did you like this idea, get in touch !</p>  -->
-   </body>
+			<div class="menu-panel">
+				<h3 style="text-align: center;">Index</h3>
+				<ul id="menu-toc" class="menu-toc">
+					<li class="menu-toc-current"><a href="#item1">1. Page Flip</a></li>
+					<li><a href="#item2">2. Responsive Design sucks</a></li>
+					<li><a href="#item3">3. Full Supports</a></li>
+					<li><a href="#item4">4. From Very Scratch</a></li>
+					<li><a href="#item5">5. Retina Display</a></li>
+				</ul>
+				 
+			</div>
+
+			<div class="bb-custom-wrapper">
+				<div id="bb-bookblock" class="bb-bookblock">
+					<div class="bb-item" id="item1">
+						<div class="content">
+							<div class="scroller">
+							<br>	
+								<h1 id="book_title">Demo Buk<sup>TM</sup></h1>
+								<hr class="dark1">
+								<hr class="dark2">
+								<hr class="dark3">
+								<br><br>
+								<h2><a href="">Page Flip Effect</a></h2>
+								<br><br>
+								<div id="embedded_audio_1" title="frad - first date">
+									<p class="story">The Hon. Francis Gillette, in a speech in Hartford, Conn., in 1871, said
+									that there was "in Connecticut, on an average, one liquor shop to every
+									forty voters, and three to every Christian church. In this city, as stated
+									in the _Hartford Times_, recently, we have five hundred liquor shops, and
+									one million eight hundred and twenty-five thousand dollars were, last
+									year, paid for intoxicating drinks. A cry, an appeal, came to me from the
+									city, a few days since, after this wise: 'Our young men are going to
+									destruction, and we want your influence, counsel, and prayers, to help
+									save them.'"</p>
+									<br>
+									<p class="story">In New London, report says, the young men are falling into drinking habits
+									as never before. So in New Haven, Bridgeport, and the other cities and
+									large places of the state.</p>
+									
+									<audio id="src__audio_1" src="assets/music/frad - first date.mp3" loop="loop">
+										Error: your web browser does not support this audio player.
+									</audio>
+								</div>
+								<br>
+								<p class="story">"The pulse of a person in health beats about seventy strokes a minute, and
+								the ordinary term of life is about seventy years. In these seventy years,
+								the pulse of a temperate person beats two billion five hundred and
+								seventy-four million four hundred and forty thousand times. If no actual
+								disorganization should happen, a drunken person might live until his pulse
+								beat this number of times; but by the constant stimulus of ardent spirits,
+								or by pulse-quickening food, or tobacco, the pulse becomes greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the ordinary term of human life, and life goes out in   instead of seventy. This application of  
+								life."
+								greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the ordinary term of human life, and life goes out in   instead of seventy. This application of  
+								life."</p>
+								<br>
+								<p class="story">"The pulse of a person in health beats about seventy strokes a minute, and
+								the ordinary term of life is about seventy years. In these seventy years,
+								the pulse of a temperate person beats two billion five hundred and
+								seventy-four million four hundred and forty thousand times. If no actual
+								disorganization should happen, a drunken person might live until his pulse
+								beat this number of times; but by the constant stimulus of ardent spirits,
+								or by pulse-quickening food, or tobacco, the pulse becomes greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the ordinary term of human life, and life goes out in   instead of seventy. This application of  
+								life."
+								greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the ordinary term of human life, and life goes out in   instead of seventy. This application of  
+								life."</p>
+								<br>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item2">
+						<div class="content">
+							<div class="scroller">
+							<br>
+								<h1 id="book_title">Demo Buk<sup>TM</sup></h1>
+								<hr class="dark1">
+								<hr class="dark2">
+								<hr class="dark3">
+								<br><br>
+								<h2><a href="">Responsive Now</a></h2>
+								<br><br>
+								<div id="embedded_audio_2" title="Bubble Tea (feat. juu & cinders)">
+									<p class="story">The Hon. Francis Gillette, in a speech in Hartford, Conn., in 1871, said
+									that there was "in Connecticut, on an average, one liquor shop to every
+									forty voters, and three to every Christian church. In this city, as stated
+									in the _Hartford Times_, recently, we have five hundred liquor shops, and
+									one million eight hundred and twenty-five thousand dollars were, last
+									year, paid for intoxicating drinks. A cry, an appeal, came to me from the
+									city, a few days since, after this wise: 'Our young men are going to
+									destruction, and we want your influence, counsel, and prayers, to help
+									save them.'"</p>
+									<br>
+									<p class="story">In New London, report says, the young men are falling into drinking habits
+									as never before. So in New Haven, Bridgeport, and the other cities and
+									large places of the state.</p>
+									<audio id="src__audio_2" src="assets/music/Bubble Tea (feat. juu & cinders).mp3" loop="loop">
+										Error: your web browser does not support this audio player.
+									</audio>
+								</div>
+								<br>
+								<p class="story">"The pulse of a person in health beats about seventy strokes a minute, and
+								the ordinary term of life is about seventy years. In these seventy years,
+								the pulse of a temperate person beats two billion five hundred and
+								seventy-four million four hundred and forty thousand times. If no actual
+								disorganization should happen, a drunken person might live until his pulse
+								beat this number of times; but by the constant stimulus of ardent spirits,
+								or by pulse-quickening food, or tobacco, the pulse becomes greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the ordinary term of human life, and life goes out in   instead of seventy. This application of  
+								life." greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the ordinary term of human life, and life goes out in   instead of seventy. This application of  
+								life."
+								greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the    
+								life."</p>
+								<br>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item3">
+						<div class="content">
+							<div class="scroller">
+							<br>
+								<h1 id="book_title">Demo Buk<sup>TM</sup></h1>
+								<hr class="dark1">
+								<hr class="dark2">
+								<hr class="dark3">
+								<br><br>
+								<h2><a href="">Full Support</a></h2>
+								<br><br>
+								<p class="story">The Hon. Francis Gillette, in a speech in Hartford, Conn., in 1871, said
+								that there was "in Connecticut, on an average, one liquor shop to every
+								forty voters, and three to every Christian church. In this city, as stated
+								in the _Hartford Times_, recently, we have five hundred liquor shops, and
+								one million eight hundred and twenty-five thousand dollars were, last
+								year, paid for intoxicating drinks. A cry, an appeal, came to me from the
+								city, a few days since, after this wise: 'Our young men are going to
+								destruction, and we want your influence, counsel, and prayers, to help
+								save them.'"</p>
+								<br>
+								<p class="story">In New London, report says, the young men are falling into drinking habits
+								as never before. So in New Haven, Bridgeport, and the other cities and
+								large places of the state.</p>
+								<br>
+								<p class="story">"The pulse of a person in health beats about seventy strokes a minute, and
+								the ordinary term of life is about seventy years. In these seventy years,
+								the pulse of a temperate person beats two billion five hundred and
+								seventy-four million four hundred and forty thousand times. If no actual
+								disorganization should happen, a drunken person might live until his pulse
+								beat this number of times; but by the constant stimulus of ardent spirits,
+								or by pulse-quickening food, or tobacco, the pulse becomes greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the ordinary term of human life, and life goes out in   instead of seventy. This application of  
+								life."until his pulse
+								beat this number of times; but by the constant stimulus of ardent spirits,
+								or by pulse-quickening food, or tobacco, the pulse becomes greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the ordinary term of human life, and life goes out in   instead of seventy. This application of  
+								life."</p>
+								<br>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item4">
+						<div class="content">
+							<div class="scroller">
+							<br>
+								<h1 id="book_title">Demo Buk<sup>TM</sup></h1>
+								<hr class="dark1">
+								<hr class="dark2">
+								<hr class="dark3">
+								<br><br>
+								<h2><a href="">From Scratch Now</a></h2>
+								<br><br>
+								<p class="story">The Hon. Francis Gillette, in a speech in Hartford, Conn., in 1871, said
+								that there was "in Connecticut, on an average, one liquor shop to every
+								forty voters, and three to every Christian church. In this city, as stated
+								in the _Hartford Times_, recently, we have five hundred liquor shops, and
+								one million eight hundred and twenty-five thousand dollars were, last
+								year, paid for intoxicating drinks. A cry, an appeal, came to me from the
+								city, a few days since, after this wise: 'Our young men are going to
+								destruction, and we want your influence, counsel, and prayers, to help
+								save them.'"</p>
+								<br>
+								<p class="story">In New London, report says, the young men are falling into drinking habits
+								as never before. So in New Haven, Bridgeport, and the other cities and
+								large places of the state.</p>
+								<br>
+								<p class="story">"The pulse of a person in health beats about seventy strokes a minute, and
+								the ordinary term of life is about seventy years. In these seventy years,
+								the pulse of a temperate person beats two billion five hundred and
+								seventy-four million four hundred and forty thousand times. If no actual
+								disorganization should happen, a drunken person might live until his pulse
+								beat this number of times; but by the constant stimulus of ardent spirits,
+								or by pulse-quickening food, or tobacco, the pulse becomes greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the ordinary term of human life, and life goes out in   instead of seventy. This application of  
+								life."
+								seventy-four million four hundred and forty thousand times. If no actual
+								disorganization should happen, a drunken person might live until his pulse
+								beat this number of times; but by the constant stimulus of ardent spirits,
+								or by pulse-quickening food, or tobacco, the pulse becomes greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more"</p>
+								<br>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item5">
+						<div class="content">
+							<div class="scroller">
+							<br>
+								<h1 id="book_title">Demo Buk<sup>TM</sup></h1>
+								<hr class="dark1">
+								<hr class="dark2">
+								<hr class="dark3">
+								<br><br>
+								<h2><a href="">Retina Display</a></h2>
+								<br><br>
+								<p class="story">The Hon. Francis Gillette, in a speech in Hartford, Conn., in 1871, said
+								that there was "in Connecticut, on an average, one liquor shop to every
+								forty voters, and three to every Christian church. In this city, as stated
+								in the _Hartford Times_, recently, we have five hundred liquor shops, and
+								one million eight hundred and twenty-five thousand dollars were, last
+								year, paid for intoxicating drinks. A cry, an appeal, came to me from the
+								city, a few days since, after this wise: 'Our young men are going to
+								destruction, and we want your influence, counsel, and prayers, to help
+								save them.'"</p>
+								<br>
+								<p class="story">In New London, report says, the young men are falling into drinking habits
+								as never before. So in New Haven, Bridgeport, and the other cities and
+								large places of the state.</p>
+								<br>
+								<p class="story">"The pulse of a person in health beats about seventy strokes a minute, and
+								the ordinary term of life is about seventy years. In these seventy years,
+								the pulse of a temperate person beats two billion five hundred and
+								seventy-four million four hundred and forty thousand times. If no actual
+								disorganization should happen, a drunken person might live until his pulse
+								beat this number of times; but by the constant stimulus of ardent spirits,
+								or by pulse-quickening food, or tobacco, the pulse becomes greatly
+								accelerated, and the two billion five hundred and seventy-four million
+								four hundred and forty thousand pulsations are performed in little more
+								than half the ordinary term of human life, and life goes out in   instead of seventy. This application of  
+								life."	the pulse of a temperate person beats two billion five hundred and
+								seventy-four million four hundred and forty thousand times. If no actual
+								disorganization should happen, a drunken person might live until his pulse
+								beat this number of times; but by the constant stimulus of ardent spirits,
+								or by pulse-quickening food, or tobacco, the pulse becomes greatly
+								accelerated, and the two billion five hundred and seventy-four million</p>
+								<br>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<nav>
+					<span id="bb-nav-prev">&larr;</span>
+					<span id="bb-nav-next">&rarr;</span>
+				</nav>
+
+				<span id="tblcontents" class="menu-button">Index</span>
+
+			</div>
+				
+		</div><!-- /container -->
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jScrollPane/2.2.1/script/jquery.jscrollpane.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		<script src="js/jquery.bookblock.js"></script>
+		<script src="js/play_audio.js"></script>
+		<script src="js/page.js"></script>
+		<script>
+			$(function() {
+
+				Page.init();
+
+			});
+		</script>
+	</body>
+
+ 
 </html>
